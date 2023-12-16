@@ -56,7 +56,7 @@ const Footer = () => {
             <Text mr={4} display={{ base: 'none', md: 'inline' }}>
               |
             </Text>
-            <Text mr={4} paddingY={{ base: '16px', md: 0 }}>
+            <Text w={120} mr={4} paddingY={{ base: '16px', md: 0 }}>
               {t('footer#api_version')} : {apiVersion}
             </Text>
             <Text mr={4} display={{ base: 'none', md: 'inline' }}>
