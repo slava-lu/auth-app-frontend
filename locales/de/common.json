@@ -54,6 +54,7 @@
   "login_modal#password_changed_alert": "Passwort erfolgreich geändert",
   "login_modal#password_changed_go_home": "Zur Startseite gehen",
   "login_modal#password_field": "Passwort",
+  "login_modal#password_field_with_hint": "(mind 8 Symbole, Buchstaben und Zahlen)",
   "login_modal#password_reset_alert": "Wenn die E-Mail existiert, senden wir Ihnen bald den Reset-Link.",
   "login_modal#password_reset_button": "Reset-Link senden",
   "login_modal#password_reset_description": "Geben Sie die E-Mail ein, um das Passwort zurückzusetzen",

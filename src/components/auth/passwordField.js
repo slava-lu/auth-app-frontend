@@ -30,6 +30,7 @@ export const PasswordField = React.forwardRef((props, ref) => {
   return (
     <FormControl isInvalid={props.error}>
       <FormLabel htmlFor='password'>{t(props.text || 'login_modal#password_field')}</FormLabel>
+      {props.hint && <FormLabel htmlFor='password'>{t(props.hint)}</FormLabel>}
       <InputGroup>
         <InputRightElement>
           <IconButton
