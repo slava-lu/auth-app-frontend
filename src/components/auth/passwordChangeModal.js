@@ -56,6 +56,7 @@ const PasswordChangeModal = (props) => {
                     <FormErrorMessage>{errors?.oldPassword?.message}</FormErrorMessage>
                     <PasswordField
                       text='password_change_modal#new_password'
+                      hint='login_modal#password_field_with_hint'
                       {...register('newPassword', {
                         required: t('login_modal#validation_required_field'),
                         minLength: {

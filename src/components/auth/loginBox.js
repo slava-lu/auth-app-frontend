@@ -129,6 +129,7 @@ const LoginBox = () => {
 
                 {loginMode === 'signUp' && (
                   <PasswordField
+                    hint='login_modal#password_field_with_hint'
                     {...register('password_signup', {
                       required: t('login_modal#validation_required_field'),
                       minLength: {
