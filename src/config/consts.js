@@ -16,7 +16,7 @@ export const TEXT_COLOR = '#023A51'
 export const WORKSPACE_ROUTE = '/workspace'
 
 export const GITHUB_URL = 'https://github.com/slava-lu/auth-app-backend'
-export const MEDIUM_ARTICLE = 'https://medium.com/@vialus/243f65f16542'
+export const MEDIUM_ARTICLE = 'https://javascript.plainenglish.io/all-inclusive-and-bulletproof-authentication-with-node-js-and-express-js-a-hardcore-style-243f65f16542'
 
 export const RESULT_CODES = {
   SUCCESS: 'success',
