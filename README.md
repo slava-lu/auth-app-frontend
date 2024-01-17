@@ -5,7 +5,7 @@ All-inclusive feature reach Authentication service. Frontend part is based on Ne
 When considering complex authentication scenarios, one might initially think of using solutions like Keycloak or cloud-based services such as Auth0. However, this app demonstrates that this might not be necessary. It offers a comprehensive authentication solution based on Node.js and Express.js, without relying on additional modules like Passport.js or Object-Relational Mapping (ORM) tools.
 
 ## Blog 
-The article with [explanation of the advanced features ](https://medium.com/@vialus/all-inclusive-and-bulletproof-authentication-with-node-js-and-express-js-a-hardcore-style-243f65f16542)
+The article with [explanation of the advanced features ](https://levelup.gitconnected.com/no-limit-auth-using-express-js-hardcore-style-fb58c4343897)
 
 ## Demo
 You can see this app in action at [www.authdemoapp.com](https://www.authdemoapp.com/)
