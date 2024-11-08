@@ -20,7 +20,7 @@
   "confirm_password#password_check_faled": "You entered the wrong password",
   "error#generic_title": "Something went wrong",
   "error#profile_load_error": "Error loading the profile",
-  "footer#copyright": "© Copyright 2023",
+  "footer#copyright": "© Copyright 2024",
   "footer#api_version": " API version",
   "footer#app_text": "Auth Demo App",
   "footer#ui_version": " UI version",

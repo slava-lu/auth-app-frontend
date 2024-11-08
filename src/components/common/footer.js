@@ -19,6 +19,7 @@ const iconSize = 5
 const Footer = () => {
   const { t } = useTranslation('common')
   const { apiVersion } = useSelector((state) => state.system)
+
   return (
     <Flex shrink={0} bg='gray.700' minH={16} align='center' color='white'>
       <Container maxW={CONTAINER_SIZE}>
@@ -50,13 +51,13 @@ const Footer = () => {
             <Text mr={4} display={{ base: 'none', md: 'inline' }}>
               |
             </Text>
-            <Text mr={4} paddingTop={{ base: '16px', md: 0 }}>
+            <Text mr={4} paddingTop={{ base: '16px', md: 0 }}  whiteSpace="nowrap" >
               {t('footer#ui_version')} : {packageJson.version}
             </Text>
             <Text mr={4} display={{ base: 'none', md: 'inline' }}>
               |
             </Text>
-            <Text w={120} mr={4} paddingY={{ base: '16px', md: 0 }}>
+            <Text   mr={4} paddingY={{ base: '16px', md: 0 }}  whiteSpace="nowrap" >
               {t('footer#api_version')} : {apiVersion}
             </Text>
             <Text mr={4} display={{ base: 'none', md: 'inline' }}>
