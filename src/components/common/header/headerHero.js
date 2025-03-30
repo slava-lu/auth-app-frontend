@@ -34,9 +34,9 @@ const HeaderHero = () => {
           </Button>
         </Flex>
       </Flex>
-      <Flex flexShrink={0} display={{ base: 'none', sm: 'flex' }}>
+      {/*  <Flex flexShrink={0} display={{ base: 'none', sm: 'flex' }}>
         <Image src={me} alt='logo' />
-      </Flex>
+      </Flex>*/}
     </Flex>
   )
 }
